@@ -1,0 +1,31 @@
+Name: libXfont
+Summary: X.Org X11 libXfont runtime library
+Description: |
+  libXfont provides the core of the legacy X11 font system, handling the
+  index files (fonts.dir, fonts.alias, fonts.scale), the various font file
+  formats, and rasterizing them
+Version: 1.4.3
+Release: 1
+Group: System/Libraries
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
+patches:
+    - Fix-memory-leak-in-allocation-failure-path-of-Bitmap.patch
+PkgConfigBR:
+    - xorg-macros
+    - xproto
+    - xtrans
+    - fontsproto
+    - fontenc
+    - freetype2
+    - fontcacheproto
+Configure: configure
+SubPackages:
+    - Name: devel
+      Summary: X.Org X11 libXfont development package
+      Description: the legacy X11 font system development files
+      Group: Development/Libraries
+      Requires:
+          - xorg-x11-filesystem
