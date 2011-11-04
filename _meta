@@ -1,8 +1,0 @@
-<package project="Mer:Trunk:Base" name="libXfont">
-  <title>X.Org X11 libXfont runtime library</title>
-  <description>Description: %{summary}
-
-
-</description>
-  <url>http://www.x.org</url>
-</package>
