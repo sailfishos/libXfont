@@ -1,3 +1,7 @@
+* Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.4.4
+- Update libXfont to version 1.4.4
+- Removed not used patch: Fix-memory-leak-in-allocation-failure-path-of-Bitmap.patch
+
 * Thu Jun 09 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.4.3
 - Picked the fix for memory leak.
 
