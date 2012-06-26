@@ -1,3 +1,6 @@
+* Tue Jun 26 2012 Marko Saukko <sage@merproject.org> - 1.4.5
+- Fixes MER#374: update libXfont to 1.4.5 [CVE-2011-2895]
+
 * Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.4.4
 - Update libXfont to version 1.4.4
 - Removed not used patch: Fix-memory-leak-in-allocation-failure-path-of-Bitmap.patch
