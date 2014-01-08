@@ -4,7 +4,7 @@ Description: |
   libXfont provides the core of the legacy X11 font system, handling the
   index files (fonts.dir, fonts.alias, fonts.scale), the various font file
   formats, and rasterizing them
-Version: 1.4.5
+Version: 1.4.7
 Release: 1
 Group: System/Libraries
 License: MIT

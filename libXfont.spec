@@ -9,7 +9,7 @@ Name:       libXfont
 # << macros
 
 Summary:    X.Org X11 libXfont runtime library
-Version:    1.4.5
+Version:    1.4.7
 Release:    1
 Group:      System/Libraries
 License:    MIT

@@ -1,3 +1,6 @@
+* Wed Jan 08 2014 Davide Bettio <davide.bettio@ispirata.com> - 1.4.7
+- Update libXfont to 1.4.7 [CVE-2013-6462]
+
 * Tue Jun 26 2012 Marko Saukko <sage@merproject.org> - 1.4.5
 - Fixes MER#374: update libXfont to 1.4.5 [CVE-2011-2895]
 
